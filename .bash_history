@@ -66,3 +66,7 @@ git init
 git add readme3.md
 git add README.md
 cd /Lab4-Jenkins
+git init
+git add .
+git commit . -m "Pushing all files"
+git status

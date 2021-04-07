@@ -367,3 +367,66 @@ Release Date: 2017-03-02
 [  3697.253] rdpRRGetPanning: 0x55efa130c1d0
 [  3697.267] rdpRRGetPanning: 0x55efa130c1d0
 [  3697.284] rdpRRGetPanning: 0x55efa130c1d0
+[  3782.514] rdpDeferredUpdateCallback: reschedule rect_id 954 rect_id_ack 953
+[  3910.982] rdpRRGetPanning: 0x55efa130c1d0
+[  3910.997] rdpRRGetPanning: 0x55efa130c1d0
+[  3911.012] rdpRRGetPanning: 0x55efa130c1d0
+[  4520.789] rdpSaveScreen:
+[  4531.859] rdpClientConSendMsg: overrun error len 33376 count 2
+[  4532.025] rdpClientConSendMsg: overrun error len 34096 count 2
+[  4532.189] rdpClientConSendMsg: overrun error len 34272 count 2
+[  4532.360] rdpClientConSendMsg: overrun error len 34584 count 2
+[  4532.520] rdpClientConSendMsg: overrun error len 34872 count 2
+[  4532.688] rdpClientConSendMsg: overrun error len 35664 count 2
+[  4532.859] rdpClientConSendMsg: overrun error len 36144 count 2
+[  4533.024] rdpClientConSendMsg: overrun error len 36408 count 2
+[  4533.192] rdpClientConSendMsg: overrun error len 37352 count 2
+[  4533.372] rdpClientConSendMsg: overrun error len 37752 count 2
+[  4533.553] rdpClientConSendMsg: overrun error len 38328 count 2
+[  4533.721] rdpClientConSendMsg: overrun error len 38440 count 2
+[  4533.898] rdpClientConSendMsg: overrun error len 38264 count 2
+[  4534.068] rdpClientConSendMsg: overrun error len 38984 count 2
+[  4534.234] rdpClientConSendMsg: overrun error len 39144 count 2
+[  4534.405] rdpClientConSendMsg: overrun error len 39264 count 2
+[  4534.582] rdpClientConSendMsg: overrun error len 39960 count 2
+[  4534.754] rdpClientConSendMsg: overrun error len 40016 count 2
+[  4534.927] rdpClientConSendMsg: overrun error len 40032 count 2
+[  4535.115] rdpClientConSendMsg: overrun error len 40480 count 2
+[  4535.292] rdpClientConSendMsg: overrun error len 41008 count 2
+[  4535.469] rdpClientConSendMsg: overrun error len 41344 count 2
+[  4535.645] rdpClientConSendMsg: overrun error len 41880 count 2
+[  4535.823] rdpClientConSendMsg: overrun error len 41464 count 2
+[  4536.001] rdpClientConSendMsg: overrun error len 42264 count 2
+[  4536.176] rdpClientConSendMsg: overrun error len 41872 count 2
+[  4536.348] rdpClientConSendMsg: overrun error len 42384 count 2
+[  4536.524] rdpClientConSendMsg: overrun error len 43040 count 2
+[  4536.703] rdpClientConSendMsg: overrun error len 43408 count 2
+[  4536.895] rdpClientConSendMsg: overrun error len 43392 count 2
+[  4536.968] (EE) 
+[  4536.968] (EE) Backtrace:
+[  4536.968] (EE) 0: /usr/lib/xorg/Xorg (xorg_backtrace+0x4a) [0x55ef9f9bf66a]
+[  4536.968] (EE) 1: /usr/lib/xorg/Xorg (0x55ef9f806000+0x1bd3f9) [0x55ef9f9c33f9]
+[  4536.969] (EE) 2: /lib/x86_64-linux-gnu/libpthread.so.0 (0x7f08a2ea3000+0x11390) [0x7f08a2eb4390]
+[  4536.969] (EE) 3: /usr/lib/xorg/Xorg (dixLookupResourceByClass+0xc8) [0x55ef9f8809a8]
+[  4536.969] (EE) 4: /usr/lib/xorg/Xorg (LegalNewID+0xdf) [0x55ef9f880baf]
+[  4536.969] (EE) 5: /usr/lib/xorg/Xorg (0x55ef9f806000+0xe7ac1) [0x55ef9f8edac1]
+[  4536.969] (EE) 6: /usr/lib/xorg/Xorg (0x55ef9f806000+0x54725) [0x55ef9f85a725]
+[  4536.969] (EE) 7: /usr/lib/xorg/Xorg (0x55ef9f806000+0x586a8) [0x55ef9f85e6a8]
+[  4536.969] (EE) 8: /lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main+0xf0) [0x7f08a2af9830]
+[  4536.969] (EE) 9: /usr/lib/xorg/Xorg (_start+0x2a) [0x55ef9f84833a]
+[  4536.969] (EE) 
+[  4536.969] (EE) Segmentation fault at address 0x0
+[  4536.969] (EE) 
+Fatal server error:
+[  4536.969] (EE) Caught signal 11 (Segmentation fault). Server aborting
+[  4536.969] (EE) 
+[  4536.969] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[  4536.969] (EE) Please also check the log file at "/home/carledwardsfaa/.local/share/xorg/Xorg.10.log" for additional information.
+[  4536.969] (EE) 
+[  4536.969] rdpmouseControl: what 4
+[  4536.969] rdpkeybControl: what 4
+[  4536.969] rdpLeaveVT:
+[  4536.970] (EE) Server terminated with error (1). Closing log file.
