@@ -70,3 +70,27 @@ git init
 git add .
 git commit . -m "Pushing all files"
 git status
+git remote add origin git@github.com:carlmedwards/testing.git
+git push -u origin master
+git remote add origin git@github.com:carlmedwards/Lab4-Jenkins.git 
+git status
+git add .
+git commit -a
+git status
+wget -q -O – https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add –
+sudo nano /etc/apt/sources.list
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk
+sudo apt-get install jenkins
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+ps -ef | grep jenkins
+ps -ef | grep java
+sudo apt-get install maven
+mvn --version
+export JAVA_HOME
+echo $JAVA_HOME
+export java_home
+echo $java_home
+cd ~/.ssh
+ssh-keygen -t rsa -C carl.edwards#faa.gov
+vi id_rsa.pub
